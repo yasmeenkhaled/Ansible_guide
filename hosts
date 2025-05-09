@@ -1,0 +1,8 @@
+[my_group]
+ansiblemain ansible_host=10.16.177.235
+
+[my_group:vars]
+ansible_connection=ssh
+ansible_user=ansibleadmin
+ansible_private_key_file=~/.ssh/id_rsa
+
